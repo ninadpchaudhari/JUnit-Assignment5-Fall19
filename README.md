@@ -15,6 +15,7 @@ The client required a simple Java class which implements the Queue Data structur
 #### Create Test case that fails to reveal the underlying fault.
 After you have done this, the code was shipped to the end user and a bug was found.
 Bug : The class does not throw an exception when dequeue function is called on an empty queue. Remember the intended behaviour of the dequeue method in a queue data-structure is throw an exception if it is called on a queue is empty. You find the problem is that: someone commented a part of your code (Line 147 & 148) after you pushed the same.
+
 **Task 2**: Write a test case which exercises the program to find the above mentioned fault.
 > Note: after writing this test case, 
 > mvn test
